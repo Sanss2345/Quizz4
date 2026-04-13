@@ -8,6 +8,7 @@ void curar(int& hp, int cantidad, int maxHP);
 int main(){
     std::string nombre="Arthas";
     int hp=100, maxHp=100;
+    std::cout<<"=== Salud del heroe ==="<<std::endl;
     mostrarEstado(nombre,hp,maxHp); //Muestra estado inicial 
     std::cout<<nombre<<" recibe 30 de dano"<<std::endl;
     recibirDanio(hp,30); //recibe 30 de dano
